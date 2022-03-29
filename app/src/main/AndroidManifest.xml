@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EvidenciafinalApp">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InventoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

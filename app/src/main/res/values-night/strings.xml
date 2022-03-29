@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inventory_title">Inventario</string>
+    <string name="delete_product_title">Eliminar producto</string>
+    <string name="add_product_content">Icono añadir producto</string>
+    <string name="main_activity_title">PROFLOR DEL NORTE</string>
+</resources>

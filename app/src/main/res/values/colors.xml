@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- App colors -->
+    <color name="primary">#1976D2</color>
+    <color name="red">#BC0C0C</color>
+    <color name="green">#36A336</color>
+
+    <color name="add_product_color">#7C4dFF</color>
+    <color name="delete_product_color">#FFB300</color>
+    <color name="view_product_color">#D81B60</color>
+    <color name="view_inventory_color">#00BfA5</color>
 </resources>

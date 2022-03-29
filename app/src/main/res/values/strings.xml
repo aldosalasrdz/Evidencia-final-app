@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">Evidencia-final-App</string>
+
+    <!-- Inventory activity -->
+    <string name="inventory_title">Inventario</string>
+    <string name="inventory_content">Icono mirar inventario</string>
+
+    <!-- Delete product activity -->
+    <string name="delete_product_title">Eliminar producto</string>
+    <string name="delete_product_hint">Nombre</string>
+    <string name="scan_delete_product_text">Escanear código</string>
+    <string name="delete_product_text">Eliminar producto</string>
+    <string name="delete_product_content">Icono eliminar producto</string>
+
+    <!-- Search product activity -->
+    <string name="search_product_title">Buscar producto</string>
+    <string name="search_product_hint">Nombre del producto</string>
+    <string name="search_product_button">Buscar</string>
+    <string name="search_product_content">Icono buscar producto</string>
+
+    <!-- Login activity -->
+    <string name="login">Inicia sesión</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+
+    <!-- Add product activity -->
+    <string name="add_product_title">Agregar producto</string>
+    <string name="add_product_name">Nombre del producto</string>
+    <string name="add_product_category">Categoría</string>
+    <string name="add_product_price">Precio del producto</string>
+    <string name="add_product_number">Número</string>
+    <string name="add_product_scan_button">Escanear código</string>
+    <string name="add_product_button">Agregar producto</string>
+    <string name="required">Obligatorio*</string>
+    <string name="add_product_content">Icono añadir producto</string>
+    <string name="main_activity_title">PROFLOR DEL NORTE</string>
 </resources>
