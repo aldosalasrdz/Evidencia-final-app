@@ -13,7 +13,7 @@
         <entry key="app/src/main/res/layout/activity_add_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_add_product.xml" value="0.3729166666666667" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_delete_items.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_delete_items.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_delete_product.xml" value="0.2430939226519337" />
         <entry key="app/src/main/res/layout/activity_delete_products.xml" value="0.36730072463768115" />
         <entry key="app/src/main/res/layout/activity_inventory.xml" value="0.36730072463768115" />
