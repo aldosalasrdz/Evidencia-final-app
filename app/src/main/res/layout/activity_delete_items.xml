@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchProductActivity">
+    tools:context=".DeleteItemsActivity">
 
     <TextView
-        android:id="@+id/search_product_title"
+        android:id="@+id/delete_product_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:text="@string/search_product_title"
+        android:text="@string/delete_product_title"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -19,36 +19,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/search_product_layout"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    <TextView
+        android:id="@+id/delete_product_code"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:text="@string/code_number_delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/search_product_title"
-        app:startIconDrawable="@drawable/ic_search">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/search_product_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/search_product_hint"
-            android:textColorHint="#757575"
-            tools:ignore="TextContrastCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/delete_product_title" />>
 
     <Button
-        android:id="@+id/search_button"
+        android:id="@+id/scan_delete_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:backgroundTint="@color/primary"
-        android:text="@string/search_product_button"
+        android:text="@string/scan_delete_product_text"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/search_product_layout" />
+        app:layout_constraintTop_toBottomOf="@+id/delete_product_code" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/delete_product_text"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scan_delete_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

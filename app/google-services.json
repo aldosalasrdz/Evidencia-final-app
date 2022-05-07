@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312442053675",
+    "project_id": "androidappfinal-80f40",
+    "storage_bucket": "androidappfinal-80f40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312442053675:android:8b09973a1003dac3def66e",
+        "android_client_info": {
+          "package_name": "com.example.evidencia_final_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312442053675-k2gpb5rqoh9d7309cv4g15qorp9lib2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEOi8qswZt8P34EuKvPiUKcRzcy59plg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312442053675-k2gpb5rqoh9d7309cv4g15qorp9lib2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

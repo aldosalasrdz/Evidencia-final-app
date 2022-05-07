@@ -20,19 +20,40 @@
 
     <!-- Login activity -->
     <string name="login">Inicia sesión</string>
-    <string name="login_email">Correo electrónico</string>
-    <string name="login_password">Contraseña</string>
     <string name="login_button">Iniciar sesión</string>
+
+    <!-- Register activity -->
+    <string name="register">Crea tu cuenta</string>
+    <string name="register_button">Regístrate ahora</string>
 
     <!-- Add product activity -->
     <string name="add_product_title">Agregar producto</string>
     <string name="add_product_name">Nombre del producto</string>
     <string name="add_product_category">Categoría</string>
     <string name="add_product_price">Precio del producto</string>
-    <string name="add_product_number">Número</string>
+    <string name="add_product_number">Número de código QR</string>
     <string name="add_product_scan_button">Escanear código</string>
     <string name="add_product_button">Agregar producto</string>
     <string name="required">Obligatorio*</string>
     <string name="add_product_content">Icono añadir producto</string>
+
+    <!-- Dashboard activity -->
+    <string name="dashboard_title">Selecciona una opción</string>
+
+    <!-- Main activity -->
     <string name="main_activity_title">PROFLOR DEL NORTE</string>
+    <string name="app_description">Maneja tu inventario de una forma sencilla usando código de barras y códigos QR</string>
+
+    <!-- Misc -->
+    <string name="name_hint">Nombre de usuario</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="scan_items_title">Escanear productos</string>
+    <string name="item_barcode">Código</string>
+    <string name="item_name">Nombre</string>
+    <string name="item_price">Precio</string>
+    <string name="item_category">Categoría</string>
+    <string name="total_sum">Suma total</string>
+    <string name="no_of_items">Núm. de productos</string>
+    <string name="code_number_delete">Número del código</string>
 </resources>
